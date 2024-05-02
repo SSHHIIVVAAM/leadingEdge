@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
         <div class="container-fluid">
           <a className="navbar-brand" href="#">
-            leis
+            <b>leis</b>
           </a>
           <button
             class="navbar-toggler"

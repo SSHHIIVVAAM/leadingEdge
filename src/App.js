@@ -10,6 +10,7 @@ import Result from "./component/Result/Result";
 import Offer from "./component/Offer/Offer";
 import Form from "./component/Form/Form";
 import Client from "./component/Our_client/Client";
+import Cards from "./component/Cards/Card";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Form />
       <Client />
       <DarkVariantExample />
-      <BasicExample />
+      {/* <Cards /> */}
       <Footer />
     </div>
   );

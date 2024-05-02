@@ -1,14 +1,21 @@
 import React from "react";
-import "./Card.css"; 
-import image1 from "../assets/ava01.png"; 
-import image2 from "../assets/ava02.png"; 
+import "./Card.css";
+import img01 from "../assets/imz01.png";
+import img02 from "../assets/imz02.png";
+import {Card, Col, Container, Row} from 'react-bootstrap'
 
-const TwoCardLayout = () => {
+function Cards() {
   return (
-    <div className="container">
-     
-    </div>
+    <Container>
+      <Row>
+        <Col md={4}>
+          <Card>
+            <Card.Img src={img01}/>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
-};
+}
 
-export default TwoCardLayout;
+export default Cards;

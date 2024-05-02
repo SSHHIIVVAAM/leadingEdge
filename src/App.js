@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Award from "./component/Award/Award";
+import BasicExample from "./component/Cards/Card";
+import Footer from "./component/Footer/Footer";
+import Header from "./component/Header/Header";
+import Home from "./component/Home/Home";
+import Navbar from "./component/Navbar/Navbar";
+import DarkVariantExample from "./component/carousel/Carousel";
+import Result from "./component/Result/Result";
+import Offer from "./component/Offer/Offer";
+import Form from "./component/Form/Form";
+import Client from "./component/Our_client/Client";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Navbar />
+      <Home />
+      <Award />
+      <Result />
+      <Offer />
+      <Form />
+      <Client />
+      <DarkVariantExample />
+      <BasicExample />
+      <Footer />
     </div>
   );
 }

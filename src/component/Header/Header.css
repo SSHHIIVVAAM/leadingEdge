@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(19, 52, 85);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section h1,
+.left-section h2 {
+  margin-right: 20px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section h3,
+.right-section h4,
+.right-section h5 {
+  margin-left: 20px;
+}
+
+img{
+  width: 10vh !important;
+  height: 5vh;
+}
+
+.imgzz{
+  height: 5vh;
+  margin-left: 3vh;
+}
+
+.left-section{
+  margin-left: 10vh;
+}
+
+.gg{
+  color: green !important;
+}

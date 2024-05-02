@@ -1,0 +1,87 @@
+.experience_container{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+    background-color: aliceblue !important
+}
+
+.experience_container > div{
+    background-color: white !important;
+    padding: 2.4rem 5rem !important;
+    border-radius: 2rem !important;
+    border: 1px solid transparent !important;
+    transition: var(--transition) !important;
+}
+
+.experience_container > div:hover{
+    background: transparent !important;
+    border-color: var(--color-primary-variant) !important;
+    cursor: default !important;
+}
+
+.experience_container > div h3{
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    color: var(--color-primary) !important;
+}
+
+.experience_content{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    row-gap: 2rem !important;
+}
+
+.experience_details{
+    display: flex !important;
+    gap: 1rem !important;
+}
+
+.experience_details-icon{
+    margin-top: 6px !important;
+    color: var(--color-primary) !important;
+}
+
+#experience{
+    padding: 10vh  !important;
+    background-color: aliceblue !important;
+}
+
+h5{
+    padding-top: 3vh !important;
+    padding-bottom: 3vh !important;
+}
+
+.zz{
+    padding-top: 0vh !important;
+    padding-bottom: 0vh !important;
+    text-align: left !important;
+}
+
+.aa{
+    padding-top: 1vh !important;
+    text-align: left !important;
+}
+
+.bx{
+    color: orange !important;
+}
+
+.button {
+    padding: 10px 10vh !important;
+    background-color: orange !important;
+    color: #fff !important;
+    border: white !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    margin-bottom: 10vh !important;
+    margin-top: 10vh !important;
+  }
+
+  .button:hover{
+    background-color: #007bff ;
+  }
+
+img{
+    width: 2vh ;
+    height: 5vh ;
+}

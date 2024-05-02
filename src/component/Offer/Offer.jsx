@@ -190,7 +190,7 @@ const Offer = () => {
           </div>
         </div>
       </div>
-      <button class="button">Send Me A Proposal</button>
+      <button class="button-abc">Send Me A Proposal</button>
     </section>
   );
 };

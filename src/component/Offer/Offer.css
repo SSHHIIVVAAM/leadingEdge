@@ -66,7 +66,7 @@ h5{
     color: orange !important;
 }
 
-.button {
+.button-abc {
     padding: 10px 10vh !important;
     background-color: orange !important;
     color: #fff !important;
@@ -77,8 +77,8 @@ h5{
     margin-top: 10vh !important;
   }
 
-  .button:hover{
-    background-color: #007bff ;
+  .button-abc:hover{
+    background-color: rgb(241, 116, 0) !important ;
   }
 
 img{

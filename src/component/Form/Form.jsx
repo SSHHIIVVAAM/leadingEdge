@@ -16,7 +16,7 @@ const Form = () => {
         <form className="form">
           <input className="input-a" placeholder="Email" />
           <input className="input-b" placeholder="password" />
-          <button>Get Your Free Analysis</button>
+          <button className="btn-cc">Get Your Free Analysis</button>
         </form>
       </div>
     </div>
